@@ -5,6 +5,7 @@ window.SAND_HILLED_CRANE_POST = {
   year: "2026",
   location: "Open Marsh",
   image: "assets/Web/Sand Hilled Crane/IMG_7344_1.jpg",
+  displayImage: "assets/Web/Sand Hilled Crane/IMG_7352.jpg",
   images: [
     "assets/Web/Sand Hilled Crane/IMG_7344_1.jpg",
     "assets/Web/Sand Hilled Crane/IMG_7352.jpg",

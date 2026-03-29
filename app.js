@@ -1,6 +1,6 @@
 const postsList = document.querySelector("#posts-list");
 const getPostImages = (post) => (post.images && post.images.length ? post.images : [post.image]);
-const getDisplayImage = (post) => getPostImages(post)[0];
+const getDisplayImage = (post) => post.displayImage || getPostImages(post)[0];
 
 const groupedPosts = window.BIRD_POSTS.reduce((years, post) => {
   if (!years[post.year]) {
