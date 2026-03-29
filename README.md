@@ -26,16 +26,19 @@ http://localhost:8000
 - `index.html` is the archive page
 - `about.html` is the separate about page
 - `post.html` is the single-post page
+- `SandHilledCranePost.js` stores the Sand Hilled Crane post content
 - `SawWetPost.js` stores the Saw Wet Owl post content
 - `posts.js` collects the post files for the site
 - `app.js` renders the archive list
 - `post.js` renders an individual post
 - `styles.css` controls the site design
-- `assets/` stores the bird images
+- `assets/Photos/` stores the original bird images
+- `assets/Web/` stores the optimized web images used by the live site
 
 ## Add Or Edit Posts
 
 Open `SawWetPost.js` to edit the owl post title, description, date, and images.
+Open `SandHilledCranePost.js` to edit the crane post title, description, date, and images.
 
 The main description text is inside the `body` array.
 
@@ -58,6 +61,7 @@ To use your own bird photos:
 
 If you add more posts later, you can create more files like:
 
+- `SandHilledCranePost.js`
 - `SawWetPost.js`
 - `CardinalPost.js`
 - `HeronPost.js`

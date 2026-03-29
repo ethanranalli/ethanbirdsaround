@@ -4,11 +4,11 @@ window.SAW_WET_POST = {
   date: "January 21, 2026",
   year: "2026",
   location: "Winter Woods",
-  image: "assets/Photos/Saw Wet Owl/Saw-Wet 2210126.jpg",
+  image: "assets/Web/Saw Wet Owl/Saw-Wet 2210126.jpg",
   images: [
-    "assets/Photos/Saw Wet Owl/Saw-Wet 2210126.jpg",
-    "assets/Photos/Saw Wet Owl/Saw-Wet210126.jpg",
-    "assets/Photos/Saw Wet Owl/IMG_7084.JPG"
+    "assets/Web/Saw Wet Owl/Saw-Wet 2210126.jpg",
+    "assets/Web/Saw Wet Owl/Saw-Wet210126.jpg",
+    "assets/Web/Saw Wet Owl/IMG_7084.JPG"
   ],
   alt: "A saw wet owl perched among branches.",
   summary: "A close winter sighting of a saw wet owl tucked into the trees.",

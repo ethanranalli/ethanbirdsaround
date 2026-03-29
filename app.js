@@ -1,4 +1,6 @@
 const postsList = document.querySelector("#posts-list");
+const getPostImages = (post) => (post.images && post.images.length ? post.images : [post.image]);
+const getDisplayImage = (post) => getPostImages(post)[0];
 
 const groupedPosts = window.BIRD_POSTS.reduce((years, post) => {
   if (!years[post.year]) {
@@ -20,9 +22,10 @@ const renderPostCard = (post) => `
     >
       <img
         class="archive-item__image"
-        src="${encodeURI(post.image)}"
+        src="${encodeURI(getDisplayImage(post))}"
         alt="${post.alt}"
         loading="lazy"
+        decoding="async"
       />
     </a>
     <h2 class="archive-item__title">

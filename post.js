@@ -1,6 +1,7 @@
 const postDetail = document.querySelector("#post-detail");
 const searchParams = new URLSearchParams(window.location.search);
 const slug = searchParams.get("slug");
+const getPostImages = (entry) => (entry.images && entry.images.length ? entry.images : [entry.image]);
 
 const post = window.BIRD_POSTS.find((entry) => entry.slug === slug);
 
@@ -13,7 +14,7 @@ if (!post) {
   `;
 } else {
   document.title = `${post.title} | Ethan Birds Around`;
-  const images = post.images && post.images.length ? post.images : [post.image];
+  const images = getPostImages(post);
 
   postDetail.innerHTML = `
     <a class="post-detail__back" href="index.html">Back to archive</a>
@@ -23,6 +24,7 @@ if (!post) {
           class="post-detail__image"
           src="${encodeURI(images[0])}"
           alt="${post.alt}"
+          decoding="async"
           data-post-image
         />
         <button
