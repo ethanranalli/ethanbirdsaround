@@ -12,9 +12,9 @@ window.SAND_HILLED_CRANE_POST = {
     "assets/Web/Sand Hilled Crane/_B7A9254.jpg"
   ],
   alt: "A sand hilled crane standing in an open marsh.",
-  summary: "A tall crane moving through the marsh with three photos in the post gallery.",
+  summary: "A Sandhill Crane is a tall gray bird with long legs, a long neck, and a red patch on its forehead.",
   body: [
-    "Add your Sand Hilled Crane description here.",
-    "You can replace these lines with your own notes about the sighting."
+    "A Sandhill Crane is a tall gray bird with long legs, a long neck, and a red patch on its forehead.",
+    "It is often seen in open marshes and fields where it walks slowly and calls with a loud rolling sound."
   ]
 };
