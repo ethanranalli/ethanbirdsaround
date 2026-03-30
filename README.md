@@ -1,17 +1,17 @@
-# Ethan Birds Around
+# Ethan's Bird Blog
 
-Minimal white-background birding website with a stacked archive of square image posts.
+Minimal white-background bird blog with a stacked archive of square image posts.
 
 ## Open The Website
 
 ### Option 1: Open it directly
 
-Open `/mnt/d/Coding/Birding Website/index.html` in any web browser.
+Open `/mnt/d/Coding/Ethan's Bird Blog/index.html` in any web browser.
 
 ### Option 2: Run a local server
 
 ```bash
-cd /mnt/d/Coding/Birding\ Website
+cd "/mnt/d/Coding/Ethan's Bird Blog"
 python3 -m http.server 8000
 ```
 

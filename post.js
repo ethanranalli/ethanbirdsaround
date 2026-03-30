@@ -13,7 +13,7 @@ if (!post) {
     </p>
   `;
 } else {
-  document.title = `${post.title} | Ethan Birds Around`;
+  document.title = `${post.title} | Ethan's Bird Blog`;
   const images = getPostImages(post);
 
   postDetail.innerHTML = `
